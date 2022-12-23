@@ -27,11 +27,14 @@ room 4 has 2 random moving Grues
 
 You win he game when player touches far end of screen.
 
+![image](https://user-images.githubusercontent.com/120183363/209365362-0a350439-95d0-4bdd-ae6a-085bdcfa4af9.png)
+
 Will have walls to create rooms. 
 
 There will be a countdown timer of 2 minutes. Game will end when timer expires (Wizard has returned to his keep).
 
-![image](https://user-images.githubusercontent.com/120183363/209365362-0a350439-95d0-4bdd-ae6a-085bdcfa4af9.png)
+![image](https://user-images.githubusercontent.com/120183363/209387828-8aa824fc-09b0-4130-94c8-1513519329c4.png)
+
 
 Technologies used
 HTML
