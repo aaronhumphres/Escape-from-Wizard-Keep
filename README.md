@@ -1,6 +1,10 @@
 # Project-1
 Create a game
-Player has escaped from a lab cell in a Prisoner's tower.
+"Escape the Wizard's Keep"
+Player has escaped from a cell in the Wizard's lab. He must now escape the keep.
+
+
+
 Simple Canvas Game.
 Object of the game is to move player to the other end of the screen without touch any traps or guards called "Grues." Touching a trap or a guard will send player back to the starting point. Player will have 3 lives.
 
