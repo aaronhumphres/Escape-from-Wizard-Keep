@@ -23,3 +23,6 @@ room 4 has 2 random moving Grues
 You win he game when player touches far end of screen.
 
 Will code walls to create rooms.
+
+![image](https://user-images.githubusercontent.com/120183363/209357165-bb1fc653-3441-4296-acf0-6bb12a7a19f9.png)
+
