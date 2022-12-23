@@ -7,7 +7,7 @@ Player has escaped from a cell in the Wizard's lab. He must now escape the keep.
 
 
 Simple Canvas Game.
-Object of the game is to move player to the other end of the screen without touch any traps or guards called "Grues." Touching a trap or a guard will send player back to the starting point. Player will have 3 lives.
+Object of the game is to move player to the other end of the screen without touch any traps or guards called "Grues." Touching a trap or a guard will send player back to the starting point. Player has 2 minutes to get out of the keep.
 
 Player will be released from cell at the beginning of the game with other prisoners. These will be his "lives." Upon the loss of a life, a message will prompt that one of the player's companions has died. There will be a funny message text when this occurs. Every time he loses a life (touching a trap or Grue), he will reurn to the start of the game.
 
