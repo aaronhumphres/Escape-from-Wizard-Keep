@@ -3,8 +3,7 @@ Create a game
 "Escape the Wizard's Keep"
 Player has escaped from a cell in the Wizard's lab. He must now escape the keep.
 
-
-
+![image](https://user-images.githubusercontent.com/120183363/209361924-0ae852c6-aba8-43c2-b9cd-462bb920503f.png)
 
 Simple Canvas Game.
 Object of the game is to move player to the other end of the screen without touch any traps or guards called "Grues." Touching a trap or a guard will send player back to the starting point. Player has 2 minutes to get out of the keep.
@@ -27,5 +26,5 @@ Will have walls to create rooms.
 
 There will be a countdown timer of 2 minutes. Game will end when timer expires (Wizard has returned to his keep).
 
-![image](https://user-images.githubusercontent.com/120183363/209357165-bb1fc653-3441-4296-acf0-6bb12a7a19f9.png)
+![image](https://user-images.githubusercontent.com/120183363/209364031-ff819995-c9fe-4c53-aceb-7b006debc0d9.png)
 
