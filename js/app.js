@@ -4,6 +4,26 @@ const c = canvas.getContext('2d')
 canvas.width = 960 //innerWidth
 canvas.height = 640 // innerHeight
 
+class Sprite {
+    constructor({ position}) {
+        this.position = position
+        this.image= new Image()
+        this.image.src= 'img/wizardKeepMapwFloor.png'
+    }
+    draw() {
+        c.drawImage(this.image, this.position.x, this.position.y)
+    }
+    
+}
+
+const wizardKeep = new Sprite({
+    position: {
+        x: 0,
+        y: 0,
+    },
+})
+
+
 class Player {
     constructor() {
         this.position = {
@@ -15,8 +35,8 @@ class Player {
             y: 0,
         }
 
-        this.width = 100
-        this.height = 100
+        this.width = 25
+        this.height = 25
         this.sides = {
             bottom: this.position.y + this.height
         }
@@ -53,6 +73,8 @@ function animate() {
     window.requestAnimationFrame(animate)
     c.fillStyle = 'white'
     c.fillRect(0, 0, canvas.width, canvas.height)
+
+    wizardKeep.draw()
     player.draw()  
     player.update()
 
@@ -71,15 +93,7 @@ animate()
 
 // add background image
 
-//const parsedCollisions = collisionsLevel1.parse2D()
-//const collisionBlocks = parsedCollisions.createObjectsFrom2D()
-//const wizardKeep = new Sprite({
-  //  position: {
-    //    x: 0,
-      //  y: 0, 
-     //},
-     //imageSrc: 'img/Wizard Keep map wfloor.png',
-//})
+
 
 // movement and events
 
