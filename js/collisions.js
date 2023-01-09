@@ -34,27 +34,7 @@ const collisionBlocks1 = [
     
     const collisionBlocks = []
 
-    Array.prototype.createObjectsFrom2D = function () {
-        const objects = []
-        this.forEach((row, y) => {
-        row.forEach((symbol, x) => {
-            if (symbol === 213) {
-                // push a new collision into collision blocks array
-                objects.push(
-                    new CollisionBlock({
-                      position: {
-                         x: x * 32,
-                          y: y * 32,
-                      },
-                    })
-                    )
-                }
-            })  
-        })
-    
-        return objects
-    
-    }
+
 
     class CollisionBlock {
         constructor({position}) {
