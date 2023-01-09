@@ -41,9 +41,16 @@ HTML
 JavaSCript
 
 As a User, 
-- I want the ability to be entertained.
+- I want to create a start screen.
+- I want to be able to press a start button to begin the game.
+- I want to create a player.
+- I want to be able to mive that player up, down, left, right.
+- I want to create a dungeon level that the player can move around in.
+- I want to create collision events with the walls.
+- I want to create collisione events with monsters.
+- I want to create an end game notification when the player escapes.
 - I want a simple learning curve.
 - I want a winnable game.
 - I want nostalgia.
-- I want a little bit of difficulty 
-- I want humor
+- I want a little bit of difficulty. 
+- I want humor.
