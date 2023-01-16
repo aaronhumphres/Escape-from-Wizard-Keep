@@ -29,14 +29,24 @@ const collisionBlocks1 = [
         for (let i = 0; i < this.length; i+=30) {
             rows.push(this.slice(i, i + 30))
         }
-    
+        
         return rows
     }
     
+
+
+//    //push a collision block with 213 identifier above
+//      const objects = []
+//      if (symbol === 213) {
+//      Object.push( new CollisionBlock({ 
+//        position: x: x * 32,
+//                 y: y * 32,}))
+
+
     const collisionBlocks = []
 
 
-    // create collision blocks. Was successful until I added Sprites, so left here. The blosk are 32 x 32, same as the 
+    // create collision blocks. W The blosk are 32 x 32, same as the 
     //sprite resolution to fit properly on backgorun image. This was a surprise and I had to play with 960x640 res.. had collision blocls drawn in the wrong spaced.
     class CollisionBlock {
         constructor({position}) {

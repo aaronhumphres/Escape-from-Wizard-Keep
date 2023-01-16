@@ -127,7 +127,10 @@ const player = new Player({
 })
 // create animate function
 function animate() {
-    window.requestAnimationFrame(animate)
+    //requestAnimationFrame(animate)
+    //assign id to requestAnimationFrame so that I can call it when game is over.
+    //I want to show a visual stop to the game.
+    const animationId = requestAnimationFrame(animate)
     //c.fillStyle = 'white'
     c.fillRect(0, 0, canvas.width, canvas.height)
 
@@ -138,9 +141,14 @@ function animate() {
     player.update()
 
     // create end game here
-   // if (this.position.x + this.width >= canvas.width) {
-        //console.log('You escaped')
-   // }
+    // game will stop when player reaches the end of the canvas.
+    if (this.position.x + this.width >= canvas.width) {     
+        console.log('YOU ESCAPED!')
+        // stops animation
+        cancelAnimationFrame(animationId)
+        //calls id gameOver to display "YOU ESCAPED"
+        document.querySelector('#gameOver').style.disply = 'flex'
+    }
    
 }
 
@@ -191,5 +199,3 @@ window.addEventListener('keydown', ({key}) => {
              break
      }
 })
-
-
